@@ -3,7 +3,14 @@
 
 ---
 ## ✅ 構成内容
-flutter-docker-project/ ├── flutter/ ← Flutter SDK（GitHubからクローン） ├── flutter_project/ ← アプリプロジェクト ├── Dockerfile ← Flutter + Web + Firebase CLI環境 ├── .devcontainer/ ← VSCode用Remote Container設定 └── README.md ← このガイド
+```pgsql
+flutter-docker-project/
+├── flutter_project/          ← アプリ本体（flutter create済）
+├── Dockerfile                ← Flutter SDK含むイメージ
+├── .devcontainer/
+│   └── devcontainer.json
+└── README.md                 ← 更新（Flutter SDK不要の説明に）
+```
 
 ---
 ## 🧩 セットアップ手順
