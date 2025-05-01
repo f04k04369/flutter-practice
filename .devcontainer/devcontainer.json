@@ -1,0 +1,17 @@
+{
+ "name": "Flutter Dev",
+ "build": {
+   "dockerfile": "../Dockerfile"
+ },
+ "extensions": [
+   "Dart-Code.flutter",
+   "Dart-Code.dart"
+ ],
+ "settings": {
+   "terminal.integrated.defaultProfile.linux": "bash"
+ },
+ "workspaceFolder": "/app",
+ "mounts": [
+   "source=${localWorkspaceFolder},target=/app,type=bind"
+ ]
+}
