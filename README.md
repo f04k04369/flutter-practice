@@ -72,3 +72,10 @@ ENV PATH="/app/flutter/bin:${PATH}"
 * Flutter SDKを flutter/ にクローンする構成、大正解です 💯
 * それに合わせて README.md を構成済み
 * 必要であれば .bashrc に PATH=/app/flutter/bin を追記もOK
+
+* ---
+## 備考
+git cloneでローカルに入れた後は、push先のURLを変更すべし。
+```git
+$ git remote set-url origin [変更先のURL]
+```
