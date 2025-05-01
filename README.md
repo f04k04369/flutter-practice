@@ -7,11 +7,7 @@ flutter-docker-project/ ├── flutter/ ← Flutter SDK（GitHubからクロ�
 
 ---
 ## 🧩 セットアップ手順
-### ① Flutter SDKをローカルにクローン
-```bash
-git clone https://github.com/flutter/flutter.git
-```
-（必要であれば --branch stable を指定）
+✅ 「Dockerfile に Flutter SDK が含まれています」と記載
 
 ---
 ## ② VSCodeでプロジェクトを開く
