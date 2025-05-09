@@ -50,6 +50,25 @@ class _MyHomePageState extends State<MyHomePage> {
         child: Column(
           mainAxisAlignment: MainAxisAlignment.center,
           children: <Widget>[
+            Row(
+              children: [
+                SizedBox(
+                  width: 50,
+                  height: 50,
+                  child: ColoredBox(
+                    color: Colors.blue,
+                    )
+                ),
+                SizedBox(
+                  width: 200,
+                  height: 330,
+                  child: ColoredBox(
+                    color: Colors.red,
+                    )
+                ),
+              ],
+            ),
+            const Text('You have pushed the button this many times:'),
             const Text('You have pushed the button this many times:'),
             Text(
               '$_counter',
