@@ -159,4 +159,3 @@ git cloneでローカルに入れた後は、push先のURLを変更すべし。
 $ git remote set-url origin [変更先のURL]
 ```
 
-
