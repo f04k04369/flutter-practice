@@ -33,6 +33,8 @@ class MyHomePage extends StatefulWidget {
 class _MyHomePageState extends State<MyHomePage> {
   int _counter = 0;
 
+  List<String> favorite = ["ガンダム","ドム","ザク","ジオング","EZ-8"];
+
   void _incrementCounter() {
     setState(() {
       _counter++;
@@ -47,10 +49,13 @@ class _MyHomePageState extends State<MyHomePage> {
         title: Text(widget.title),
       ),
       body: ListView.builder(
-              itemCount: 5,
+              itemCount: favorite.length + 1,
               itemBuilder: (context, index) {
+                if (index == 0) {
+                  return Text('お気に入り');
+                }
                 return Card(
-                  child: Text('Item $index'),
+                  child: Text(favorite[index - 1]),
                 );
               },
             ),
