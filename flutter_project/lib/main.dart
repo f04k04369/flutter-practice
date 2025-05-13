@@ -49,8 +49,8 @@ class _MyHomePageState extends State<MyHomePage> {
       body: ListView.builder(
               itemCount: 5,
               itemBuilder: (context, index) {
-                return ListTile(
-                  title: Text('Item $index'),
+                return Card(
+                  child: Text('Item $index'),
                 );
               },
             ),
