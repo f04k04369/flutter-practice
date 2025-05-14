@@ -1,4 +1,8 @@
-# Flutter 開発テンプレート（Android Studio + Docker 対応）
+# Flutter研修【MIXI 24新卒技術研修】を演習として使用
+引用元：https://youtu.be/GWq4-Xfv9dM?si=GI5gyfsUR_FLVoVy
+
+
+## Flutter 開発テンプレート（Android Studio + Docker 対応）
 このリポジトリは、Flutterを使ってWeb／モバイルアプリを開発するための、再現性・チーム共有性の高いテンプレートです。
 初心者でも安心して始められるように、「Docker開発」と「Android Studioでの実機テスト」の両方に対応しています。
 ## ✅ このテンプレートでできること
